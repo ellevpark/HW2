@@ -5,20 +5,18 @@ body {
   /* Background pattern from Christopher Buecheler */
 }
 
-header {
-  position: relative;
-  margin: auto;
-  width: 100%;
-  background-color: #ffffff;
-}
 .container{
   position: relative;
   margin: auto;
-  height: 150vh;
   padding: 10px;
   width: 100%;
 }
 
+.img.container {
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 10px;
+}
 .row { 
   background-color: #ffffff;
 }
@@ -27,23 +25,21 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
 a:hover 
 {
   color: pink; 
   text-decoration:none; 
   cursor:pointer;  
 }
+
 h1 {
-  position: relative;
-  font-size: xx-large;
   font-family: "Georgia", Times, "Times New Roman", serif;  
   color: white;
   padding: 20px;
   background: #4aaaa5;
-  height: 10vh;
-  margin: 0;
-  width: 35vh;
 }
+
 .col-sm-4 {
   padding-top: 15px;
 }
@@ -59,17 +55,13 @@ h1 {
 
   }
   hr {
-    display: block;
-    position: static;
-    padding: 0;
-    margin: 0px;
-    height: 10px;
     width: 100%;
-    font-size: 1px;
-    line-height: 0;
-    clear: both;
-    border: none;
     border-top: 2px solid #cccccc;
+    background-color: white;
+  }
+
+  .img.container{
+    position: relative;
   }
 
   .col-sm-5 {
@@ -77,98 +69,103 @@ h1 {
   
   }
 
-  img {
-    position: relative;
-    height: 30vh;
-    width: 30vh;
+  img.propic {
+    height: 60vh;
+    width: 60vh;
     float: left;
-    margin: 10px 0px 20px 0px;
-    z-index: 0;
-    
+    margin: 0px 20px 20px 0px;  
   }
+
   p {
     color: #777777;
     float: left;
-    clear: both;
+    margin: 20px 20px 20px 0px;
+    }
+
+ 
+
+  img {
+    width: 40vh;
+    height: 40vh;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
   }
 
-  .img-container {
-    height: 150vh;
-    background: pink;
-    position: relative;
-    width: 100%;
-  }
-
-  .ogbub-col-sm-4 {
+  .ogbub.col-md-3 {
     position: relative;
   }
 
-  .ogbub-col-sm-4 label { 
-    position: relative;
+  .ogbub.col-md-3 label { 
+    position: absolute;
     background-color: #4aaaa5;
-    bottom: 50px;
-    left: 10px;
-    width: 125px;
+    bottom: 34px;
+    left: 39px;
+    padding: 20px;
+    width: 210px;
     color: #ffffff;
     text-align: center;
     z-index: 1;
-  }
+}
   
-  .classic-col-sm-4 {
+  .classic.col-md-3 {
     position: relative;
   }
-  .classic-col-sm-4 label { 
-    position: relative;
+  .classic.col-md-3 label { 
+    position: absolute;
     background-color: #4aaaa5;
-    bottom: 50px;
-    left: 10px;
-    width: 125px;
+    bottom: 35px;
+    left: 35px;
+    padding: 20px;
+    width: 220px;
     color: #ffffff;
     text-align: center;
     z-index: 1;
-  }
+}
   
-  .xmas-col-sm-4 {
+  .xmas.col-md-3 {
     position: relative;
   }
-  .xmas-col-sm-4 label {
-
-    position: relative;
+  .xmas.col-md-3 label {
+    position: absolute;
     background-color: #4aaaa5;
-    bottom: 50px;
-    left: 10px;
-    width: 125px;
+    bottom: 30px;
+    left: 35px;
+    padding: 20px;
+    width: 220px;
     color: #ffffff;
     text-align: center;
     z-index: 1;
-  }
+}
   
-  .winter-col-sm-4 {
+  .winter.col-md-3 {
     position: relative;
   }
-  .winter-col-sm-4 label {
-    position: relative;
+  .winter.col-md-3 label {
+    position: absolute;
     background-color: #4aaaa5;
-    bottom: 66px;
-    left: 30px;
-    width: 125px;
+    bottom: 30px;
+    left: 35px;
+    padding: 20px;
+    width: 220px;
     color: #ffffff;
     text-align: center;
     z-index: 1;
   }
-.clone-col-sm-4 {
+.clone.col-md-3 {
   position: relative;
 }
-.clone-col-sm-4 label {
+.clone.col-md-3 label {
     
-    position: relative;
-    background-color: #4aaaa5;
-    bottom: 66px;
-    left: 30px;
-    width: 125px;
-    color: #ffffff;
-    text-align: center;
-    z-index: 1;
+  position: absolute;
+  background-color: #4aaaa5;
+  bottom: 30px;
+  left: 35px;
+  padding: 20px;
+  width: 220px;
+  color: #ffffff;
+  text-align: center;
+  z-index: 1;
   }
   
 input[type="text"] {

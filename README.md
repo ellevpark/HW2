@@ -1,2 +1,2 @@
 # HW2
-Learning how to use bootstrap and make responsive pages 
+Created Rows and Containers using Bootstrap to revamp my profile page to be responsive 
